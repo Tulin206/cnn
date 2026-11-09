@@ -1,0 +1,43 @@
+# Operating system files
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Jupyter notebook checkpoints (keep the notebooks themselves)
+.ipynb_checkpoints/
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Local environment settings and secrets
+.env
+.env.*
+!.env.example
+
+# Downloaded datasets (including torchvision CIFAR-10)
+data/
+datasets/
+cifar-10-batches-py/
+cifar-10-python.tar.gz
+
+# Generated model weights and training logs
+checkpoints/
+runs/
+logs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.keras
+*.h5
+events.out.tfevents.*
